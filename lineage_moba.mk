@@ -11,20 +11,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from nio device
-$(call inherit-product, device/motorola/nio/device.mk)
+# Inherit from moba device
+$(call inherit-product, device/lenovo/moba/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_nio
-PRODUCT_DEVICE := nio
-PRODUCT_BRAND := motorola
-PRODUCT_MODEL := XT2125-4
-PRODUCT_MANUFACTURER := motorola
+PRODUCT_NAME := lineage_moba
+PRODUCT_DEVICE := moba
+PRODUCT_BRAND := lenovo
+PRODUCT_MODEL := l79031
+PRODUCT_MANUFACTURER := lenovo
 
-PRODUCT_SYSTEM_NAME := nio_retcn
+PRODUCT_SYSTEM_NAME := moba_retcn
 
 # Build info
-BUILD_FINGERPRINT := "motorola/nio_retcn/nio:12/S1RN32.55-16-2/125d6-32b4dd:user/release-keys"
+BUILD_FINGERPRINT := Lenovo/moba/moba:12/SKQ1.220119.001/13.5.351_221103:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="nio_retcn-user 12 S1RN32.55-16-2 125d6-32b4dd release-keys" \
+    PRIVATE_BUILD_DESC="moba-user 12 SKQ1.220119.001 13.5.351_221103 release-keys" \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)

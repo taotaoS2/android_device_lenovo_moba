@@ -5,7 +5,7 @@
 #
 
 # Inherit from sm8250-common
-$(call inherit-product, device/motorola/sm8250-common/common.mk)
+$(call inherit-product, device/lenovo/sm8250-common/common.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -42,4 +42,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/motorola/nio/nio-vendor.mk)
+$(call inherit-product-if-exists, vendor/lenovo/moba/moba-vendor.mk)

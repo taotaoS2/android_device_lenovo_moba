@@ -7,4 +7,4 @@
 RECOVERY_KMOD_TARGETS := \
     nova_0flash_mmi.ko
 
--include device/motorola/sm8250-common/AndroidBoardCommon.mk
+-include device/lenovo/sm8250-common/AndroidBoardCommon.mk

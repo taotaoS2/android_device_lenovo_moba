@@ -8,8 +8,8 @@
 
 set -e
 
-export DEVICE=nio
+export DEVICE=moba
 export DEVICE_COMMON=sm8250-common
-export VENDOR=motorola
+export VENDOR=lenovo
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"

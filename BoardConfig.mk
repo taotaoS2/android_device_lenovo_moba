@@ -4,12 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-include device/motorola/sm8250-common/BoardConfigCommon.mk
+include device/lenovo/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/nio
+DEVICE_PATH := device/lenovo/moba
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := nio
+TARGET_BOOTLOADER_BOARD_NAME := moba
 
 # Display
 TARGET_SCREEN_DENSITY := 480
@@ -18,7 +18,7 @@ TARGET_SCREEN_DENSITY := 480
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/lineageos_nio_defconfig
+TARGET_KERNEL_CONFIG := vendor/lineageos_moba_defconfig
 
 # SEPolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
@@ -30,4 +30,4 @@ SOONG_CONFIG_MOTO_KONA_TOUCH_SINGLE_TAP_PATH := /sys/class/touchscreen/NVT-ts/si
 TARGET_TAP_TO_WAKE_NODE := /sys/class/touchscreen/NVT-ts/double_click
 
 # Inherit from the proprietary version
--include vendor/motorola/nio/BoardConfigVendor.mk
+-include vendor/lenovo/moba/BoardConfigVendor.mk

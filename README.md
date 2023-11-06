@@ -1,19 +1,19 @@
-# Device configuration for Motorola Edge S / Moto G100
+# Device configuration for Lenovo Legion Duel / Pro
 
 ## Device specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core (1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.8 GHz Kryo 585)
-CHIPSET | Qualcomm SM8250 Snapdragon 870
+CPU     | Octa-core (1x3.09 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55)
+CHIPSET | Qualcomm SM8250 Snapdragon 865 5G+
 GPU     | Adreno 650
-Memory  | 6 / 8 / 12GB
-Shipped Android Version | 11
-Storage | 128 / 256GB
+Memory  | 8 / 12 / 16GB
+Shipped Android Version | 10
+Storage | 128 / 256 / 512GB
 Battery | 5000 mAh
-Dimensions | 168.4 x 74 x 9.7 mm
-Display | 1080 x 2520 pixels, 6.7" IPS, 90Hz, HDR10
-Rear Camera  | 64 MP (f/1.7) + 16 MP (f/2.2) + 2 MP (f/2.4) + TOF 3D
-Front Camera | 16 MP (f/2.2) + 8 MP (f/2.4)
+Dimensions | 169.2 x 78.5 x 9.9 mm
+Display | 1080 x 2340 pixels, 6.65" AMOLED, 144Hz, HDR10+
+Rear Camera  | 64 MP (f/1.9) + 16 MP (f/2.2)
+Front Camera | 20 MP (f/2.2)
 
-![Device Picture](https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g100-ofic-01.jpg)
+![Device Picture](https://fdn2.gsmarena.com/vv/pics/lenovo/lenovo-legion-01.jpg)

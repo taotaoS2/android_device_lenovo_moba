@@ -16,18 +16,13 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    FrameworksResNio \
-    SystemUIResNio
+    FrameworksResMoba \
+    SystemUIResMoba
 
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
-
-# Init
-PRODUCT_PACKAGES += \
-    init.device.rc \
-    init.recovery.device.rc
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -39,7 +34,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/lenovo/moba/moba-vendor.mk)

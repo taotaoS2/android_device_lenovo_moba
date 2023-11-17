@@ -4,7 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- There are aux cams on nio. -->
+    <!-- There are aux cams on moba. -->
     <bool name="config_enableAuxCameras">true</bool>
 
     <!-- ID3 is mono, serves no purpose in Aperture. -->
